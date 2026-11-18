@@ -20,7 +20,7 @@ test('shows the model, details and daily price', () => {
   render(<OfferCard offer={golf} />)
   expect(screen.getByRole('heading', { name: 'VW Golf' })).toBeInTheDocument()
   expect(screen.getByText(/Compact · 5 seats · Manual/)).toBeInTheDocument()
-  expect(screen.getByText('€58.00')).toBeInTheDocument()
+  expect(screen.getByText('€58')).toBeInTheDocument()
 })
 
 test('selecting the offer puts it in the booking summary', async () => {
