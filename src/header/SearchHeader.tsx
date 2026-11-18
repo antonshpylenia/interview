@@ -1,5 +1,6 @@
 import { useSearchStore } from '../store/search'
 import { Select } from '../ui/Select'
+import { formatPrice } from '../shared/formatPrice'
 import type { Location } from '../types'
 
 const LOCATIONS: { value: Location; label: string }[] = [
@@ -8,7 +9,7 @@ const LOCATIONS: { value: Location; label: string }[] = [
 ]
 
 export function SearchHeader() {
-  const { location, pickupDate, returnDate, setLocation, setDates } = useSearchStore()
+  const { location, pickupDate, returnDate, priceCap, setLocation, setDates, setPriceCap } = useSearchStore()
 
   return (
     <header className="search">
@@ -20,6 +21,20 @@ export function SearchHeader() {
       <label>
         To
         <input type="date" value={returnDate} onChange={(e) => setDates(pickupDate, e.target.value)} />
+      </label>
+      <label>
+        Max price / day: {priceCap ? formatPrice(priceCap) : 'Any'}
+        <input
+          type="range"
+          min={30}
+          max={200}
+          step={10}
+          value={priceCap ?? 200}
+          onChange={(e) => {
+            const value = Number(e.target.value)
+            setPriceCap(value >= 200 ? null : value)
+          }}
+        />
       </label>
     </header>
   )
