@@ -18,7 +18,7 @@
     "transmission": "manual",
     "fuel": "petrol",
     "seats": 5,
-    "pricePerDay": "45.00",
+    "pricePerDay": "44.90",
     "currency": "EUR"
   },
   {
@@ -29,7 +29,7 @@
     "transmission": "automatic",
     "fuel": "petrol",
     "seats": 5,
-    "pricePerDay": "52.00",
+    "pricePerDay": "52.50",
     "currency": "EUR"
   },
   {
@@ -62,7 +62,7 @@
     "transmission": "automatic",
     "fuel": "hybrid",
     "seats": 5,
-    "pricePerDay": "64.00",
+    "pricePerDay": "63.90",
     "currency": "EUR"
   },
   {
@@ -84,7 +84,7 @@
     "transmission": null,
     "fuel": "electric",
     "seats": 5,
-    "pricePerDay": "119.00",
+    "pricePerDay": "118.90",
     "currency": "EUR"
   },
   {
@@ -106,7 +106,7 @@
     "transmission": "automatic",
     "fuel": "hybrid",
     "seats": 5,
-    "pricePerDay": "89.00",
+    "pricePerDay": "88.90",
     "currency": "EUR"
   },
   {
@@ -183,7 +183,7 @@
     "transmission": "manual",
     "fuel": "petrol",
     "seats": 5,
-    "pricePerDay": "42.00",
+    "pricePerDay": "41.50",
     "currency": "EUR"
   },
   {
@@ -216,7 +216,7 @@
     "transmission": "manual",
     "fuel": "petrol",
     "seats": 5,
-    "pricePerDay": "41.00",
+    "pricePerDay": "40.90",
     "currency": "EUR"
   },
   {
@@ -249,7 +249,7 @@
     "transmission": "automatic",
     "fuel": "hybrid",
     "seats": 5,
-    "pricePerDay": "86.00",
+    "pricePerDay": "85.50",
     "currency": "EUR"
   },
   {
@@ -304,7 +304,7 @@
     "transmission": "manual",
     "fuel": "petrol",
     "seats": 5,
-    "pricePerDay": "49.00",
+    "pricePerDay": "48.90",
     "currency": "EUR"
   },
   {
